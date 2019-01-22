@@ -1,0 +1,104 @@
+body{    
+    overflow: hidden;
+    background-image: url(../BallControl/img/bgcolor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+
+    /* BigBallBlue */
+.BigBallBlue{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: blue; 
+    cursor: pointer;   
+    z-index: 1;
+}
+.BigBallBlue span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.ballCircle{
+    position: absolute;   
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    
+    transition: all 1s ease-in-out;
+    box-shadow: 2.424px 4.373px 17px 0 rgba(0, 0, 0, 0.14);
+}
+
+
+
+   /* BigBallRed */
+.BigBallRed{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: red;  
+    cursor: pointer;  
+    z-index: 1;
+}
+.BigBallRed p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.ball{
+    position: absolute;   
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    
+    transition: all 1s ease-in-out;
+    box-shadow: 2.424px 4.373px 17px 0 rgba(0, 0, 0, 0.14); 
+}
+
+
+
+  /* BigBallGreen */
+.BigBallGreen{
+    position: absolute;
+    top: 500px;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: green;  
+    cursor: pointer;  
+    z-index: 1;
+}
+.BigBallGreen h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;   
+}
+.ballCircleGreen{
+    position: absolute;   
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    
+    transition: all 1s ease-in-out;
+}
